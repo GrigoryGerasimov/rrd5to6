@@ -19,6 +19,8 @@ module.exports = {
         ],
         quotes: ["error", "double", { allowTemplateLiterals: true }],
         "multiline-ternary": ["off"],
-        "react/display-name": ["off"]
+        "react/display-name": ["off"],
+        "object-curly-newline": ["off"],
+        "object-property-newline": ["off"]
     }
 };
