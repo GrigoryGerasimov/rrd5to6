@@ -15,7 +15,7 @@ module.exports = {
         semi: ["error", "always"],
         "space-before-function-paren": [
             "error",
-            { anonymous: "never", arrowFunc: "never", named: "never" }
+            { anonymous: "never", asyncArrow: "never", named: "never" }
         ],
         quotes: ["error", "double", { allowTemplateLiterals: true }],
         "multiline-ternary": ["off"],
