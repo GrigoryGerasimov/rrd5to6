@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-// import App from "./app/rrdv5/App.jsx";
-import App from "./app/rrdv6/App.jsx";
+import App from "./app/rrdv5/App.jsx";
+// import App from "./app/rrdv6/App.jsx";
 import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 

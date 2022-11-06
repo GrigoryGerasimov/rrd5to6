@@ -6,7 +6,7 @@ const EditNavBar = () => {
 
     return (
         <ul className="d-flex flex-row my-5 text-light">
-            <NavLink to={`/users/${userId}/profile`} className="mx-5 text-decoration-none text-warning h5">User Page</NavLink>
+            <NavLink to="profile" className="mx-5 text-decoration-none text-warning h5">User Page</NavLink>
             <NavLink to={`/users/${Number(userId) + 1}/profile`} className="mx-5 text-decoration-none text-warning h5">Another User Page</NavLink>
             <NavLink to="/users" className="mx-5 text-decoration-none text-warning h5">Users List</NavLink>
         </ul>
